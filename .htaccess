@@ -1,0 +1,21 @@
+# Gnuboard .htaccess 설정
+
+# PHP 에러 표시 (개발 환경용)
+php_flag display_errors On
+php_value error_reporting E_ALL
+
+# 디렉토리 인덱싱 비활성화
+Options -Indexes
+
+# 데이터 디렉토리 보호
+<FilesMatch "^(dbconfig|config)\.php$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# SQLite 데이터베이스 파일 보호
+<FilesMatch "\.db$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
