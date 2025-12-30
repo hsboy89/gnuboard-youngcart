@@ -1,6 +1,6 @@
 # Gnuboard + YoungCart 설치 가이드
 
-pumae.kr 스타일의 웹사이트를 구축하기 위한 Gnuboard + YoungCart 설치 및 설정 가이드입니다.
+다무상회 스타일의 웹사이트를 구축하기 위한 Gnuboard + YoungCart 설치 및 설정 가이드입니다.
 
 ## 시스템 요구사항
 
@@ -45,7 +45,7 @@ http://localhost/install.php
 │   ├── file/             # 업로드된 파일
 │   └── dbconfig.php      # 데이터베이스 설정 파일
 ├── theme/                # 테마 디렉토리
-│   └── pumae/           # pumae.kr 스타일 테마
+│   └── pumae/           # 다무상회 스타일 테마
 │       ├── css/         # 스타일시트
 │       ├── js/          # JavaScript 파일
 │       ├── images/      # 이미지 파일
@@ -76,7 +76,7 @@ http://localhost/install.php
 
 ### 4. 반응형 디자인
 - 모바일 친화적 레이아웃
-- pumae.kr 스타일 적용
+- 다무상회 스타일 적용
 
 ## 데이터베이스
 

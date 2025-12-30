@@ -9,8 +9,8 @@ $lang = $_SESSION['lang'] ?? 'ko';
 $footer_text = [
     'ko' => [
         'company_name' => '회사명',
-        'company' => '주식회사 품애',
-        'ceo' => '대표자: 김영준',
+        'company' => '주식회사 다무상회',
+        'ceo' => '대표자: 홍길동',
         'business_no' => '사업자번호: 171-81-03249',
         'contact' => '연락처',
         'email' => 'E-MAIL: pumae2021@gmail.com',
@@ -21,8 +21,8 @@ $footer_text = [
     ],
     'en' => [
         'company_name' => 'Company Name',
-        'company' => 'PumAe Inc.',
-        'ceo' => 'CEO: Youngjun Kim',
+        'company' => '다무상회 Inc.',
+        'ceo' => 'CEO: 홍길동',
         'business_no' => 'Business Registration: 171-81-03249',
         'contact' => 'Contact',
         'email' => 'E-MAIL: pumae2021@gmail.com',
@@ -58,7 +58,7 @@ $ft = $footer_text[$lang] ?? $footer_text['ko'];
             </div>
         </div>
         <div class="footer-bottom">
-            <p>Copyright © PUMAE INC All Rights Reserved.</p>
+            <p>Copyright © 다무상회 INC All Rights Reserved.</p>
         </div>
     </div>
 </footer>

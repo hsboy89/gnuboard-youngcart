@@ -3,7 +3,7 @@
 ## 프로젝트 개요
 
 **프로젝트명**: Gnuboard + YoungCart 기반 웹사이트  
-**목적**: pumae.kr 스타일의 웹사이트 구축  
+**목적**: 다무상회 스타일의 웹사이트 구축  
 **개발 환경**: Windows 10, PHP 8.3.29  
 **개발 기간**: 2025년
 
@@ -97,7 +97,7 @@ Gnuboard-test/
 │   └── dbconfig.php               # DB 설정 및 헬퍼 함수
 │
 ├── theme/                         # 테마 디렉토리
-│   └── pumae/                     # pumae.kr 스타일 테마
+│   └── pumae/                     # 다무상회 스타일 테마
 │       ├── css/
 │       │   └── style.css         # 메인 스타일시트
 │       ├── js/
